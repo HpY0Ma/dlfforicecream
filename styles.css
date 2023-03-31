@@ -1,0 +1,127 @@
+.nav__list {
+    margin-left: 35%;
+    display: flex;
+}
+
+.nav__item {
+    margin: 25px;
+}
+
+.btn {
+    width: 100px;
+    height: 22px;
+    left: 1255px;
+    top: 39px;
+    color: purple;
+    background: #D23166;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.logo2 {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.wrapper {
+    background-color: rgb(232, 217, 240);
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.feedback {
+    padding: 112px 0px 149px;
+}
+
+.container {}
+
+.feedback__container {
+    display: flex;
+}
+
+.feedback__column {
+    width: 50%;
+}
+
+.reviews {}
+
+.review {}
+
+.avatar {
+    width: 56px;
+    height: 59px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user__info {
+    display: flex;
+    text-align: center;
+}
+
+.avatar_img {}
+
+.avatar_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-info__text {}
+
+.user-info__name {}
+
+.user-info__desc {}
+
+.review__text {
+    max-width: 345px;
+    padding-left: 23px;
+}
+
+.review__text::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url(Elements/quots.svg) center/contain no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(-1 1);
+}
+
+.review__text::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(Elements/quots.svg) center/contain no-repeat;
+    vertical-align: sub;
+}
+
+.avatars {}
+
+.avatar__img {}
+
+.avatrs__ctrls {}
+
+.avatar__ctrl {}
+
+.avatars__ctrl-pic {}
+
+.avatars__ctrl-pic_rotate_left {}
+
+.avatars__ctrl-pic_rotate_right {}
+
+.avatars__list {}
+
+.avatars__item {}
+
+.feedback__decor {}
