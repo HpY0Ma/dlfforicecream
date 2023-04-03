@@ -106,22 +106,49 @@ body {
     vertical-align: sub;
 }
 
-.avatars {}
+.avatars {
+    padding: 0px 40px;
+    position: relative;
+    max-width: 300px;
+}
 
 .avatar__img {}
 
-.avatrs__ctrls {}
+.avatrs__ctrls {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    justify-content: space-between;
+}
 
 .avatar__ctrl {}
 
-.avatars__ctrl-pic {}
+.avatars__ctrl-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 
-.avatars__ctrl-pic_rotate_left {}
+}
+
+.avatars__ctrl-pic_rotate_left {
+    transform: rotate(-180deg);
+}
 
 .avatars__ctrl-pic_rotate_right {}
 
-.avatars__list {}
+.avatars__list {
+    display: flex;
+    width: 35px;
+    column-gap: 35px;
+}
 
-.avatars__item {}
+.avatars__item {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
 
 .feedback__decor {}
